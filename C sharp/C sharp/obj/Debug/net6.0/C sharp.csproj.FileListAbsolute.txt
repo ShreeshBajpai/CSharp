@@ -1,0 +1,5 @@
+C:\Users\shreesh.bajpai\source\repos\C sharp\C sharp\obj\Debug\net6.0\C sharp.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\C sharp\C sharp\obj\Debug\net6.0\C sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\C sharp\C sharp\obj\Debug\net6.0\C sharp.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\C sharp\C sharp\obj\Debug\net6.0\C sharp.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\C sharp\C sharp\obj\Debug\net6.0\C sharp.csproj.CoreCompileInputs.cache

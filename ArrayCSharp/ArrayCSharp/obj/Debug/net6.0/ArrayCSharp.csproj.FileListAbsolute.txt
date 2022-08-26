@@ -1,0 +1,15 @@
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\bin\Debug\net6.0\ArrayCSharp.exe
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\bin\Debug\net6.0\ArrayCSharp.deps.json
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\bin\Debug\net6.0\ArrayCSharp.runtimeconfig.json
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\bin\Debug\net6.0\ArrayCSharp.dll
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\bin\Debug\net6.0\ArrayCSharp.pdb
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.dll
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\refint\ArrayCSharp.dll
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.pdb
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ArrayCSharp.genruntimeconfig.cache
+C:\Users\shreesh.bajpai\source\repos\ArrayCSharp\ArrayCSharp\obj\Debug\net6.0\ref\ArrayCSharp.dll

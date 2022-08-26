@@ -1,0 +1,5 @@
+C:\Users\shreesh.bajpai\source\repos\CSharp\TeacherModule\obj\Debug\net6.0\TeacherModule.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\CSharp\TeacherModule\obj\Debug\net6.0\TeacherModule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\CSharp\TeacherModule\obj\Debug\net6.0\TeacherModule.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\CSharp\TeacherModule\obj\Debug\net6.0\TeacherModule.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\CSharp\TeacherModule\obj\Debug\net6.0\TeacherModule.csproj.CoreCompileInputs.cache
