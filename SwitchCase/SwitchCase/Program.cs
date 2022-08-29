@@ -7,158 +7,73 @@ class Program
     {
 
 
-        String name="", ID="";
+        String name="", ID="", addr="", dept="", Pname="", Paddr="", PID="", PatientName="", bed_dept="", Patient_Addr="";
         string answer = "Y";
         for (; answer.ToUpper() == "Y";)
         {
-            int pal, arm, rollno=10;
+            int pal, arm, rollno=10, booking_id; 
+            double phone, Pphone, Patient_Phone;
             String s_name = "Abc";
-            Console.WriteLine("Press 1 for Entering a Student Detail");
-            Console.WriteLine("Press 2 for Showing the Student Detail");
-            Console.WriteLine("Press 3 for checking a palindrome");
-            Console.WriteLine("Press 4 for checking a armstrong number");
+            Console.WriteLine("Press 1 for registering doctors");
+            Console.WriteLine("Press 2 for registering patients");
+            Console.WriteLine("Press 3 for booking bed for patient");
             Console.WriteLine("Enter your choice : ");
             int n = int.Parse(Console.ReadLine());
             switch (n)
             {
            
                 case 1:
-                    Console.WriteLine("Enter the Roll no: - ");
+                    Console.WriteLine("Enter the Doctor's ID: - ");
                     ID = Console.ReadLine();
-                    Console.WriteLine("Enter the Name: - ");
+                    Console.WriteLine("Enter the Doctor's Name: - ");
                     name = Console.ReadLine();
+                    Console.WriteLine("Enter the Doctor's Department: - ");
+                    dept = Console.ReadLine();
+                    Console.WriteLine("Enter the Doctor's Phone: - ");
+                    phone = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Doctor's Address: - ");
+                    addr = Console.ReadLine();
+                    Console.WriteLine("Doctor's Id is : " + ID);
+                    Console.WriteLine("Doctor's Name is : " + name);
+                    Console.WriteLine("Doctor's Department is: - " + dept);
+                    Console.WriteLine("Doctor's Address is: - " + addr);
+                    Console.WriteLine("Doctor's Phone Number is: - " + phone);
                     break;
 
                 case 2:
-                    Console.WriteLine("Roll no is : " + ID);
-                    Console.WriteLine("Name is : " + name);
+                    Console.WriteLine("Enter the Patient's ID: - ");
+                    PID = Console.ReadLine();
+                    Console.WriteLine("Enter the Patient's Name: - ");
+                    Pname = Console.ReadLine();
+                    Console.WriteLine("Enter the Patient's Phone: - ");
+                    Pphone = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Patient's Address: - ");
+                    Paddr = Console.ReadLine();
+                    Console.WriteLine("Patient's Id is : " + PID);
+                    Console.WriteLine("Patient's Name is : " + Pname);
+                    Console.WriteLine("Patient's Address is: - " + Paddr);
+                    Console.WriteLine("Patient's Phone Number is: - " + Pphone);
                     break;
-
 
                 case 3:
-                    Console.Write("Enter a Number To Check Palindrome : ");
-                    pal = int.Parse(Console.ReadLine());
-                    int remainder, sum = 0;
-                    int temp = pal;
-                    while (pal > 0)
-                    {
-
-                        remainder = pal % 10;
-                        //multiply the sum with 10 and then add the remainder
-                        sum = (sum * 10) + remainder;
-                        //Get the quotient by dividing the number with 10 
-                        pal = pal / 10;
-                    }
-                    if (temp == sum)
-                    {
-                        Console.WriteLine($"Number {temp} is Palindrome.");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Number {temp} is not Palindrome");
-                    }
-                    break;
-                case 4:
-
-                    int num, r, summ = 0, tempo;
-                    Console.Write("Enter the Number= ");
-                    num = int.Parse(Console.ReadLine());
-                    tempo = num;
-                    while (num > 0)
-                    {
-                        r = num % 10;
-                        summ = summ + (r * r * r);
-                        num = num / 10;
-                    }
-                    if (tempo == summ)
-                        Console.Write("Armstrong Number.");
-                    else
-                        Console.Write("Not Armstrong Number.");
-                    break;
-                    
-            }
-            Console.WriteLine("Do you want to continue (Y/N)?");
-            answer = Console.ReadLine();
-        }
-    }
-}using System;
-namespace BhavnaCorp;
-
-class Program
-{
-    static void Main(String[] args)
-    {
-
-
-        String name="", ID="";
-        string answer = "Y";
-        for (; answer.ToUpper() == "Y";)
-        {
-            int pal, arm, rollno=10;
-            String s_name = "Abc";
-            Console.WriteLine("Press 1 for Entering a Student Detail");
-            Console.WriteLine("Press 2 for Showing the Student Detail");
-            Console.WriteLine("Press 3 for checking a palindrome");
-            Console.WriteLine("Press 4 for checking a armstrong number");
-            Console.WriteLine("Enter your choice : ");
-            int n = int.Parse(Console.ReadLine());
-            switch (n)
-            {
-           
-                case 1:
-                    Console.WriteLine("Enter the Roll no: - ");
-                    ID = Console.ReadLine();
-                    Console.WriteLine("Enter the Name: - ");
-                    name = Console.ReadLine();
-                    break;
-
-                case 2:
-                    Console.WriteLine("Roll no is : " + ID);
-                    Console.WriteLine("Name is : " + name);
-                    break;
-
-
-                case 3:
-                    Console.Write("Enter a Number To Check Palindrome : ");
-                    pal = int.Parse(Console.ReadLine());
-                    int remainder, sum = 0;
-                    int temp = pal;
-                    while (pal > 0)
-                    {
-
-                        remainder = pal % 10;
-                        //multiply the sum with 10 and then add the remainder
-                        sum = (sum * 10) + remainder;
-                        //Get the quotient by dividing the number with 10 
-                        pal = pal / 10;
-                    }
-                    if (temp == sum)
-                    {
-                        Console.WriteLine($"Number {temp} is Palindrome.");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Number {temp} is not Palindrome");
-                    }
-                    break;
-                case 4:
-
-                    int num, r, summ = 0, tempo;
-                    Console.Write("Enter the Number= ");
-                    num = int.Parse(Console.ReadLine());
-                    tempo = num;
-                    while (num > 0)
-                    {
-                        r = num % 10;
-                        summ = summ + (r * r * r);
-                        num = num / 10;
-                    }
-                    if (tempo == summ)
-                        Console.Write("Armstrong Number.");
-                    else
-                        Console.Write("Not Armstrong Number.");
-                    break;
-                    
+                    Console.WriteLine("Bed Booking Details");
+                    Console.WriteLine("Enter the Booking Id :- ");
+                    booking_id=int.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the patient's Name :- ");
+                    PatientName=Console.ReadLine();
+                    Console.WriteLine("Enter the Department in which bed needs to be booked: - ");
+                    bed_dept = Console.ReadLine();
+                    Console.WriteLine("Enter the patient's Address :- ");
+                    Patient_Addr=Console.ReadLine();
+                    Console.WriteLine("Enter the patient's Phone :- ");
+                    Patient_Phone=double.Parse(Console.ReadLine());
+                    Console.WriteLine("!!! Booking Successful !!!");
+                    Console.WriteLine("Booking Id is : " + booking_id);
+                    Console.WriteLine("Patient's Name is : " + PatientName);
+                    Console.WriteLine("Patient's Address is: - " + Patient_Addr);
+                    Console.WriteLine("Patient's Phone Number is: - " + Patient_Phone);
+                    Console.WriteLine("Department Of Admissible Patient is:- " + bed_dept);
+                    break;                    
             }
             Console.WriteLine("Do you want to continue (Y/N)?");
             answer = Console.ReadLine();

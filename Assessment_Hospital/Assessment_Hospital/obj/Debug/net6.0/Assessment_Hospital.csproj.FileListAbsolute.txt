@@ -1,0 +1,15 @@
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\bin\Debug\net6.0\Assessment_Hospital.exe
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\bin\Debug\net6.0\Assessment_Hospital.deps.json
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\bin\Debug\net6.0\Assessment_Hospital.runtimeconfig.json
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\bin\Debug\net6.0\Assessment_Hospital.dll
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\bin\Debug\net6.0\Assessment_Hospital.pdb
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.dll
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\refint\Assessment_Hospital.dll
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.pdb
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\Assessment_Hospital.genruntimeconfig.cache
+C:\Users\shreesh.bajpai\source\repos\Assessment_Hospital\Assessment_Hospital\obj\Debug\net6.0\ref\Assessment_Hospital.dll
