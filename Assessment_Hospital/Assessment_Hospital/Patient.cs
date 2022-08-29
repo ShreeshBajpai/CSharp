@@ -30,7 +30,7 @@ namespace Assessment_Hospital
             }
             set
             {
-                patient_department = value;
+                patient_dept = value;
             }
         }
     }

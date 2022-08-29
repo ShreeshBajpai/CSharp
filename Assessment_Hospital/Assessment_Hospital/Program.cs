@@ -9,7 +9,7 @@ List<BedBooking> bedsList = new List<BedBooking> { };
 
 while (repeat == "Y" || repeat == "y")
 {
-    Console.WriteLine("Enter 1 for regeistering doctor.");
+    Console.WriteLine("Enter 1 for registering doctor.");
     Console.WriteLine("Enter 2 for registering patient.");
     Console.WriteLine("Enter 3 for booking bed.");
     Console.Write("Enter your choice : ");
