@@ -1,0 +1,15 @@
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.exe
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.deps.json
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.runtimeconfig.json
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.dll
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.pdb
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.dll
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\refint\ECommerce.dll
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.pdb
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.genruntimeconfig.cache
+C:\Users\shreesh.bajpai\source\repos\ECommerce\ECommerce\obj\Debug\net6.0\ref\ECommerce.dll
