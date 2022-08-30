@@ -1,0 +1,12 @@
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\bin\Debug\net6.0\PartialClasses.deps.json
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\bin\Debug\net6.0\PartialClasses.dll
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\bin\Debug\net6.0\PartialClasses.pdb
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.dll
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\refint\PartialClasses.dll
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\PartialClasses.pdb
+C:\Users\shreesh.bajpai\source\repos\EmployeeTask\PartialClasses\obj\Debug\net6.0\ref\PartialClasses.dll
