@@ -1,0 +1,15 @@
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\bin\Debug\net6.0\Aug31_CSharp.exe
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\bin\Debug\net6.0\Aug31_CSharp.deps.json
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\bin\Debug\net6.0\Aug31_CSharp.runtimeconfig.json
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\bin\Debug\net6.0\Aug31_CSharp.dll
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\bin\Debug\net6.0\Aug31_CSharp.pdb
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.dll
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\refint\Aug31_CSharp.dll
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.pdb
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\Aug31_CSharp.genruntimeconfig.cache
+C:\Users\shreesh.bajpai\source\repos\Aug31_CSharp\Aug31_CSharp\obj\Debug\net6.0\ref\Aug31_CSharp.dll
