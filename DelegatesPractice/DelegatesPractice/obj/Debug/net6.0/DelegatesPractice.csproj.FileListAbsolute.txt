@@ -1,0 +1,15 @@
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DelegatesPractice.exe
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DelegatesPractice.deps.json
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DelegatesPractice.runtimeconfig.json
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DelegatesPractice.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DelegatesPractice.pdb
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\refint\DelegatesPractice.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.pdb
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.genruntimeconfig.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\ref\DelegatesPractice.dll
