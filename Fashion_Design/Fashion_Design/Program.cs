@@ -1,5 +1,6 @@
 ﻿using Fashion_Design;
 using Microsoft.VisualBasic;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using static Fashion_Design.Category;
@@ -21,6 +22,7 @@ while (isRepeat == "Y" || isRepeat == "y")
     Console.WriteLine("Press 3 for Data Deletion in Products table");
     Console.WriteLine("Press 4 for Data Updation in Products table");
     Console.WriteLine("Press 5 for Data Search in Products table");
+    Console.WriteLine("Press 6 for Matching Data to Adidas using interface");
 
     Console.WriteLine("Enter your choice -  ");
     int choice = int.Parse(Console.ReadLine());
@@ -101,10 +103,16 @@ while (isRepeat == "Y" || isRepeat == "y")
             Console.WriteLine("Enter the id to be searched");
             prod.p_id = int.Parse(Console.ReadLine());
             SqlDataAdapter da = new SqlDataAdapter("select * from products where p_id = " + prod.p_id + "", con);
+            //SqlDataAdapter da = new SqlDataAdapter("select * from products ", con);
             DataSet ds = new DataSet();
             da.Fill(ds, "products");
             int x = ds.Tables[0].Rows.Count;
             Console.WriteLine("Records found: " + x);
+            break;
+
+        case 6 :
+            Console.WriteLine("Interface Implementation");
+            prod.PInterface("");
             break;
 
         default:

@@ -18,12 +18,11 @@ namespace Fashion_Design
         {
             return p_name;
         }
-        public bool Iproducts(string productName)
+        public void PInterface(string str)
         {
-            if (productName.Equals("Adidas"))
-            return true;
-            else
-            return false;
+            Console.WriteLine("Enter Admin Name: ");
+            str = Console.ReadLine();
+            Console.WriteLine("Admin is : "+ str);
         }
     }
 }

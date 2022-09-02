@@ -10,7 +10,7 @@ namespace Fashion_Design
     {
         public interface InterfaceProducts
         {
-            bool Iproducts (string productName);
+            public void PInterface(string str);
         }
 
     }
