@@ -11,8 +11,6 @@ Sales sale = new Sales();
 Employee emp=new Employee();
 Admin ad = new Admin();
 
-string  password, name;
-
 SqlConnection con = new SqlConnection("server=BHAVNAWKS755;database=PizzaInfo;integrated security=true");
 
 string isRepeat = "Y";
@@ -73,7 +71,8 @@ switch (input)
                             DataSet ds1 = new DataSet();
                             da1.Fill(ds1);
                             int x = ds1.Tables[0].Rows.Count;
-                            for (int k = 0; k < x; k++)
+                            Console.WriteLine(x);
+                            for (int k = 0; k <= x; k++)
                             {
                                 Console.WriteLine(ds1.Tables[0].Rows[k][1].ToString() + " " + ds1.Tables[0].Rows[k][2].ToString());
                             }
@@ -126,7 +125,7 @@ switch (input)
                 {
                     Console.Write("Enter Password : ");
                     flogin.pass = Console.ReadLine();
-                    if (flogin.pass.ToString() == ds3.Tables[0].Rows[i][0].ToString())
+                    if (flogin.pass.ToString() == ds3.Tables[0].Rows[i][2].ToString())
                     {
                         Console.WriteLine("Press 1 for Employee Registration");
                         Console.WriteLine("Press 2 for Salary Distribution");
@@ -143,7 +142,7 @@ switch (input)
                             emp.Name = Console.ReadLine();
                             Console.Write("Enter Employee Salary : ");
                             emp.Salary = int.Parse(Console.ReadLine());
-                            SqlCommand cmd2 = new SqlCommand("insert into employee values( " + emp.Id + ", " + emp.FranchiseId +"  ,' " + emp.Name + " ' , " + emp.Salary +" )", con);
+                            SqlCommand cmd2 = new SqlCommand("insert into emp values( " + emp.Id + ", " + emp.FranchiseId +"  ,' " + emp.Name + " ' , " + emp.Salary +" )", con);
                             con.Open();
                             cmd2.ExecuteNonQuery();
                             con.Close();
