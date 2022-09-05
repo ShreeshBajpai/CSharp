@@ -11,7 +11,7 @@ Sales sale = new Sales();
 Employee emp=new Employee();
 Admin ad = new Admin();
 
-string username, password, name;
+string  password, name;
 
 SqlConnection con = new SqlConnection("server=BHAVNAWKS755;database=PizzaInfo;integrated security=true");
 
@@ -20,35 +20,31 @@ string isRepeat = "Y";
 while (isRepeat == "Y" || isRepeat == "y")
 {
     Console.WriteLine("Press 1 for Admin Login");
-Console.WriteLine("Press 2 for Franchise Login");
-int input = int.Parse(Console.ReadLine());
+    Console.WriteLine("Press 2 for Franchise Login");
+    int input = int.Parse(Console.ReadLine());
 
 switch (input)
 {
     case 1:
             Console.Write("Enter Admin ID : ");
             ad.id = Console.ReadLine();
-            Console.Write("Enter Admin Password : ");
-            ad.pass = Console.ReadLine();
-            name = ad.id;
-            SqlDataAdapter da3 = new SqlDataAdapter("Select * from flogin", con);
-            DataSet ds6 = new DataSet();
-            da3.Fill(ds6);
-            int y = ds6.Tables[0].Rows.Count;
-            for (int i = 0; i < y; i++)
-            {                     
-                if (name == ds6.Tables[0].Rows[i][1].ToString())
+            SqlDataAdapter da = new SqlDataAdapter("Select * from alogin", con);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            int y = ds.Tables[0].Rows.Count;
+            Console.WriteLine(y);
+            for (int i = 0; i <= y; i++)
+            {
+                if (ad.id.ToString() == ds.Tables[0].Rows[i][0].ToString())
                 {
                     Console.Write("Enter Password : ");
-                    flogin.pass = Console.ReadLine();
-                    if (ad.pass.ToString() == ds6.Tables[0].Rows[i][2].ToString())
+                    ad.pass = Console.ReadLine();
+                    if (ad.pass.ToString() == ds.Tables[0].Rows[i][1].ToString())
                     {
-
                         Console.WriteLine("Press 1 for registering franchise");
                         Console.WriteLine("Press 2 to see franchise details");
                         Console.WriteLine("Press 3 to see sales record");
                         Console.Write("Enter Your Choice: ");
-
 
                         int choice = int.Parse(Console.ReadLine());
                         if (choice == 1)
@@ -117,20 +113,20 @@ switch (input)
         case 2:
             Console.Write("Enter franchise ID : ");
             flogin.id = Console.ReadLine();
-            name = flogin.id;
-            SqlDataAdapter da8 = new SqlDataAdapter("Select * from flogin", con);
+            SqlDataAdapter da3 = new SqlDataAdapter("Select * from flogin", con);
             DataSet ds3 = new DataSet();
-            da8.Fill(ds3);
+            da3.Fill(ds3);
             int xy = ds3.Tables[0].Rows.Count;
-            for (int i = 0; i < xy; i++)
+            Console.WriteLine(xy);
+            for (int i = 0; i <= xy; i++)
             {
                 //Console.WriteLine(ds2.Tables[0].Rows[i][1].ToString()+" "+ ds2.Tables[0].Rows[i][2].ToString());
                 //Console.WriteLine(name);                      
-                if (name == ds3.Tables[0].Rows[i][1].ToString())
+                if (flogin.id == ds3.Tables[0].Rows[i][0].ToString())
                 {
                     Console.Write("Enter Password : ");
                     flogin.pass = Console.ReadLine();
-                    if (flogin.pass.ToString() == ds3.Tables[0].Rows[i][2].ToString())
+                    if (flogin.pass.ToString() == ds3.Tables[0].Rows[i][0].ToString())
                     {
                         Console.WriteLine("Press 1 for Employee Registration");
                         Console.WriteLine("Press 2 for Salary Distribution");
@@ -170,9 +166,9 @@ switch (input)
                         }
                         else if (choice2==3)
                         {
-                            SqlDataAdapter da4 = new SqlDataAdapter("select s_id, s_mode, f_id, s_amount, s_date from sales orderby s_mode", con);
+                            SqlDataAdapter da5 = new SqlDataAdapter("select s_id, s_mode, f_id, s_amount, s_date from sales orderby s_mode", con);
                             DataSet ds5 = new DataSet();
-                            da4.Fill(ds5);
+                            da5.Fill(ds5);
                             int w = ds5.Tables[0].Rows.Count;
                             if (w <= 0) Console.WriteLine("No Sales.");
                             else
