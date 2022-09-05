@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September_2", "September_2\September_2.csproj", "{605F47D8-A317-41AE-957D-4A0C156E966F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{AD517CC6-1691-4CB4-B9E0-DB87CE7459C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605F47D8-A317-41AE-957D-4A0C156E966F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605F47D8-A317-41AE-957D-4A0C156E966F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605F47D8-A317-41AE-957D-4A0C156E966F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605F47D8-A317-41AE-957D-4A0C156E966F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD517CC6-1691-4CB4-B9E0-DB87CE7459C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD517CC6-1691-4CB4-B9E0-DB87CE7459C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD517CC6-1691-4CB4-B9E0-DB87CE7459C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD517CC6-1691-4CB4-B9E0-DB87CE7459C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E1F0E67-69C4-470F-9114-59A7883534BD}
+	EndGlobalSection
+EndGlobal

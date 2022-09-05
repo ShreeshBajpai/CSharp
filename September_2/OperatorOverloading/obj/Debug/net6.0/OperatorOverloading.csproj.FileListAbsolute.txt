@@ -1,0 +1,12 @@
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.deps.json
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.dll
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.pdb
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.dll
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\refint\OperatorOverloading.dll
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.pdb
+C:\Users\shreesh.bajpai\source\repos\September_2\OperatorOverloading\obj\Debug\net6.0\ref\OperatorOverloading.dll
