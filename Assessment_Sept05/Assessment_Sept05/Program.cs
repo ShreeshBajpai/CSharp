@@ -11,13 +11,6 @@ Sales sale = new Sales();
 Employee emp=new Employee();
 Admin ad = new Admin();
 
-
-static bool checkadmin(string username, string pass)
-{
-    if (username == "admin" && pass == "1234") return true;
-    return false;
-}
-
 string username, password, name;
 
 SqlConnection con = new SqlConnection("server=BHAVNAWKS755;database=PizzaInfo;integrated security=true");
@@ -35,7 +28,7 @@ switch (input)
     case 1:
             Console.Write("Enter Admin ID : ");
             ad.id = Console.ReadLine();
-            Console.Write("Enter Admin ID : ");
+            Console.Write("Enter Admin Password : ");
             ad.pass = Console.ReadLine();
             name = ad.id;
             SqlDataAdapter da3 = new SqlDataAdapter("Select * from flogin", con);
@@ -84,9 +77,9 @@ switch (input)
                             DataSet ds1 = new DataSet();
                             da1.Fill(ds1);
                             int x = ds1.Tables[0].Rows.Count;
-                            for (int i = 0; i < x; i++)
+                            for (int k = 0; k < x; k++)
                             {
-                                Console.WriteLine(ds1.Tables[0].Rows[i][1].ToString() + " " + ds1.Tables[0].Rows[i][2].ToString());
+                                Console.WriteLine(ds1.Tables[0].Rows[k][1].ToString() + " " + ds1.Tables[0].Rows[k][2].ToString());
                             }
                         }
                         else if (choice == 3)
@@ -125,11 +118,11 @@ switch (input)
             Console.Write("Enter franchise ID : ");
             flogin.id = Console.ReadLine();
             name = flogin.id;
-            SqlDataAdapter da3 = new SqlDataAdapter("Select * from flogin", con);
+            SqlDataAdapter da8 = new SqlDataAdapter("Select * from flogin", con);
             DataSet ds3 = new DataSet();
-            da3.Fill(ds3);
-            int y = ds3.Tables[0].Rows.Count;
-            for (int i = 0; i < y; i++)
+            da8.Fill(ds3);
+            int xy = ds3.Tables[0].Rows.Count;
+            for (int i = 0; i < xy; i++)
             {
                 //Console.WriteLine(ds2.Tables[0].Rows[i][1].ToString()+" "+ ds2.Tables[0].Rows[i][2].ToString());
                 //Console.WriteLine(name);                      
