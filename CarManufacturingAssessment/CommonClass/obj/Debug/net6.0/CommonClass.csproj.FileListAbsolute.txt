@@ -1,0 +1,5 @@
+C:\Users\shreesh.bajpai\source\repos\CarManufacturingAssessment\CommonClass\obj\Debug\net6.0\CommonClass.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\CarManufacturingAssessment\CommonClass\obj\Debug\net6.0\CommonClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\CarManufacturingAssessment\CommonClass\obj\Debug\net6.0\CommonClass.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\CarManufacturingAssessment\CommonClass\obj\Debug\net6.0\CommonClass.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\CarManufacturingAssessment\CommonClass\obj\Debug\net6.0\CommonClass.csproj.CoreCompileInputs.cache
