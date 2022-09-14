@@ -13,13 +13,12 @@ namespace CarManufacturingAssessment
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //db connection string-----------------
-            SqlConnection con = new SqlConnection("server=localhost;database=CarManufacturingUnit;integrated security=true");
+            SqlConnection con = new SqlConnection("server=localhost;database=CarManufacturing;integrated security=true");
             string isrepeat = "Y";
             int choice;
-
             //objects------------------------------
             Employees emp = new Employees();
             manufacturingCost costObj = new manufacturingCost();
@@ -39,16 +38,18 @@ namespace CarManufacturingAssessment
             {
                 while (isrepeat.ToUpper() == "Y")
                 {
-                    Console.WriteLine("Press 1 to distribute the salaries of employees\nPress 2 to see the salary distribution of the current month\nPress 3 to calculate the total cost of car repairing as well as maintaining the stocks\nPress 4 to calculate the total cost of car manufacturing");
+                    Console.WriteLine("Press 1 to distribute the salaries of employees");
+                    Console.WriteLine("Press 2 to see the salary distribution of the current month");
+                    Console.WriteLine("Press 3 to calculate the total cost of car repairing as well as maintaining the stocks");
+                    Console.WriteLine("Press 4 to calculate the total cost of car manufacturing");
                     choice = int.Parse(Console.ReadLine());
                     switch (choice)
                     {
-                        //this is for distributing the salary to a particular employee using its id----------------------------
                         case 1:
-                            Console.WriteLine("Enter the id of an employee to whom you want to distribute the salary");
+                            Console.WriteLine("Enter the ID of employee");
                             emp.id = int.Parse(Console.ReadLine());
 
-                            //Extrating the required fields from department, employee and totalworkinghrs table from db using inner join---------- 
+                            //Extrating the required fields from department, employee and totalworkinghrs table  
                             SqlDataAdapter data = new SqlDataAdapter("select hrs.*, e.Employee_Name , e.Dept_id, d.sal_perhour " +
                                 "from employeeWorkingHrs hrs inner join Employee e " +
                                 "on hrs.empid = e.empId " +
@@ -58,9 +59,9 @@ namespace CarManufacturingAssessment
                             if (ds.Tables.CanRemove(ds.Tables["Employee"]))
                                 ds.Tables.Remove(ds.Tables["Employee"]);
 
-                            data.Fill(ds, "Employee");
+                            data.Fill(ds, "employeeDetails");
 
-                            int num = ds.Tables["Employee"].Rows.Count;
+                            int num = ds.Tables["employeeDetails"].Rows.Count;
 
                             //taking the minimum working hrs in a month to be 184-------------------
                             emp.minWorkingHrs = 184;
@@ -82,8 +83,8 @@ namespace CarManufacturingAssessment
                                     if (!File.Exists(salaryRecord))
                                         using (StreamWriter sw = File.CreateText(salaryRecord))
                                         {
-                                            sw.WriteLine($"Employee Id: {ds.Tables["employeeDetails"].Rows[j][0].ToString()}, " +
-                                                $"Employee Name: {ds.Tables["employeeDetails"].Rows[j][2].ToString()}, " +
+                                            sw.WriteLine($"Employee Id: {ds.Tables["Employee"].Rows[j][0].ToString()}, " +
+                                                $"Employee Name: {ds.Tables["Employee"].Rows[j][2].ToString()}, " +
                                                 $"Employee's Salary of the Month: {emp.totalSalary} ");
                                         }
                                     else
@@ -100,7 +101,7 @@ namespace CarManufacturingAssessment
                             Action<string> message = com.printMessage;
                             message("\nSalary distributed successfully!!\n");
                             break;
-
+                            
                         //Reading the salary records file (admin can see the salary records from here)--------
                         case 2:
                             if (!File.Exists(salaryRecord))
@@ -140,7 +141,7 @@ namespace CarManufacturingAssessment
                                 partsCount--;
                             }
 
-                            SqlDataAdapter dataadap = new SqlDataAdapter("select * from Products", con);
+                            SqlDataAdapter dataadap = new SqlDataAdapter("select * from parts", con);
                             dataadap.Fill(ds, "parts");
 
                             int count = ds.Tables["parts"].Rows.Count;
@@ -159,7 +160,7 @@ namespace CarManufacturingAssessment
 
                                         //grabbing id of the part which is to be replaced in order to maintain the stocks
                                         id = int.Parse(ds.Tables["parts"].Rows[i][0].ToString());
-                                        SqlCommand cmd = new SqlCommand("update stocks set quanity -=1 where productId = " + id + "", con);
+                                        SqlCommand cmd = new SqlCommand("update stocks set quanity -=1 where part_Id = " + id + "", con);
                                         con.Open();
                                         cmd.ExecuteNonQuery();
                                         con.Close();
@@ -176,26 +177,26 @@ namespace CarManufacturingAssessment
 
                         //calculating the car manufaturing cost-----------------------------------
                         case 4:
-                            SqlDataAdapter da = new SqlDataAdapter("select * from Products", con);
-                            da.Fill(ds, "carParts");
+                            SqlDataAdapter da = new SqlDataAdapter("select * from parts", con);
+                            da.Fill(ds, "parts");
 
-                            int rowscount = ds.Tables["carParts"].Rows.Count;
+                            int rowscount = ds.Tables["parts"].Rows.Count;
 
                             for (int i = 0; i < rowscount; i++)
                             {
-                                if (ds.Tables["carParts"].Rows[i][1].ToString() == "tyre" ||
-                                ds.Tables["carParts"].Rows[i][1].ToString() == "door" ||
-                                ds.Tables["carParts"].Rows[i][1].ToString() == "window glass")
+                                if (ds.Tables["parts"].Rows[i][1].ToString() == "Window" ||
+                                ds.Tables["parts"].Rows[i][1].ToString() == "Door" ||
+                                ds.Tables["parts"].Rows[i][1].ToString() == "Glass")
                                 {
-                                    costObj.totalManufactureCost += 4 * (int)ds.Tables["carParts"].Rows[i][2];
+                                    costObj.totalManufactureCost += 4 * (int)ds.Tables["parts"].Rows[i][2];
                                 }
                                 else if (ds.Tables["carParts"].Rows[i][1].ToString() == "Bumper")
                                 {
-                                    costObj.totalManufactureCost += 2 * (int)ds.Tables["carParts"].Rows[i][2];
+                                    costObj.totalManufactureCost += 2 * (int)ds.Tables["parts"].Rows[i][2];
                                 }
                                 else
                                 {
-                                    costObj.totalManufactureCost += (int)ds.Tables["carParts"].Rows[i][2];
+                                    costObj.totalManufactureCost += (int)ds.Tables["parts"].Rows[i][2];
                                 }
 
                                 //func delegate to calculate the total manpower cost - it will add manpower cost per part everytime to calculate totalManpowerCost
@@ -206,7 +207,7 @@ namespace CarManufacturingAssessment
                             }
                             Console.WriteLine("\nTotal Cost to manufacture a car: " + (costObj.totalManufactureCost + costObj.totalManpowerCost));
                             break;
-
+                            
                         default:
                             Action<string> invalidOpt = com.printMessage;
                             invalidOpt("\nInvalid option!\n");

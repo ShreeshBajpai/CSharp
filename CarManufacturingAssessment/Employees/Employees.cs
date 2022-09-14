@@ -14,8 +14,5 @@ namespace CarManufacturingAssessment
         public int totalWorkingHrs;
         public int totalSalary;
         public int minWorkingHrs;
-        }
     }
-
-}
 }
