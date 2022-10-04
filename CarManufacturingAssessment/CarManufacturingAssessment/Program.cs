@@ -1,12 +1,9 @@
 ﻿using CarManufacturingCost;
-using CarManufacturingAssessment;
-using CarManufacturingCost;
 using CommonClass;
-using static CarManufacturingAssessment.Employees;
-using System;
 using System.Collections;
 using System.Data;
 using System.Data.SqlClient;
+using CarManufacturingAssessment;
 using System.IO;
 
 namespace CarManufacturingAssessment
@@ -16,11 +13,11 @@ namespace CarManufacturingAssessment
         public static void Main(string[] args)
         {
             //db connection string-----------------
-            SqlConnection con = new SqlConnection("server=localhost;database=CarManufacturing;integrated security=true");
+            SqlConnection con = new SqlConnection("server=BHAVNAWKS755;database=CarManufacturing;integrated security=true");
             string isrepeat = "Y";
             int choice;
             //objects------------------------------
-            Employees emp = new Employees();
+            Employee emp = new Employee();
             manufacturingCost costObj = new manufacturingCost();
             CommonCls com = new CommonCls();
 
@@ -42,6 +39,9 @@ namespace CarManufacturingAssessment
                     Console.WriteLine("Press 2 to see the salary distribution of the current month");
                     Console.WriteLine("Press 3 to calculate the total cost of car repairing as well as maintaining the stocks");
                     Console.WriteLine("Press 4 to calculate the total cost of car manufacturing");
+                    Console.WriteLine("Press 5 to see the remaining stocks");
+                    Console.WriteLine("Press 6 to see balance sheet");
+
                     choice = int.Parse(Console.ReadLine());
                     switch (choice)
                     {
@@ -51,7 +51,7 @@ namespace CarManufacturingAssessment
 
                             //Extrating the required fields from department, employee and totalworkinghrs table  
                             SqlDataAdapter data = new SqlDataAdapter("select hrs.*, e.Employee_Name , e.Dept_id, d.sal_perhour " +
-                                "from employeeWorkingHrs hrs inner join Employee e " +
+                                "from employeeWorkingHrs hrs inner join Employee e " + 
                                 "on hrs.empid = e.empId " +
                                 "inner join departmenrt d " +
                                 "on d.departmentId = e.deptId", con);

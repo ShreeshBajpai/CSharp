@@ -173,17 +173,14 @@
           "bin/placeholder/CommonClass.dll": {}
         }
       },
-      "Employees/1.0.0": {
+      "EmployeeDetails/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "System.Data.SqlClient": "4.8.3"
-        },
         "compile": {
-          "bin/placeholder/Employees.dll": {}
+          "bin/placeholder/EmployeeDetails.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Employees.dll": {}
+          "bin/placeholder/EmployeeDetails.dll": {}
         }
       }
     }
@@ -512,17 +509,17 @@
       "path": "../CommonClass/CommonClass.csproj",
       "msbuildProject": "../CommonClass/CommonClass.csproj"
     },
-    "Employees/1.0.0": {
+    "EmployeeDetails/1.0.0": {
       "type": "project",
-      "path": "../Employees/Employees.csproj",
-      "msbuildProject": "../Employees/Employees.csproj"
+      "path": "../EmployeeDetails/EmployeeDetails.csproj",
+      "msbuildProject": "../EmployeeDetails/EmployeeDetails.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "CarManufacturingCost >= 1.0.0",
       "CommonClass >= 1.0.0",
-      "Employees >= 1.0.0",
+      "EmployeeDetails >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
   },
@@ -565,8 +562,8 @@
             "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\CommonClass\\CommonClass.csproj": {
               "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\CommonClass\\CommonClass.csproj"
             },
-            "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj": {
-              "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj"
+            "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj": {
+              "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj"
             }
           }
         }

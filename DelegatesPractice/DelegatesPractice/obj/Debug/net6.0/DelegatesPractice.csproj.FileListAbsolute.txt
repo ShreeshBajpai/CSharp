@@ -13,3 +13,6 @@ C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Deb
 C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.pdb
 C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.genruntimeconfig.cache
 C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\ref\DelegatesPractice.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DefaultKeyword.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\bin\Debug\net6.0\DefaultKeyword.pdb
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DelegatesPractice\obj\Debug\net6.0\DelegatesPractice.csproj.CopyComplete

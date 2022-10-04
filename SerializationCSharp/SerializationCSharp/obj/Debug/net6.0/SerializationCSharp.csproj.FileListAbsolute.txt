@@ -1,0 +1,15 @@
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\bin\Debug\net6.0\SerializationCSharp.exe
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\bin\Debug\net6.0\SerializationCSharp.deps.json
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\bin\Debug\net6.0\SerializationCSharp.runtimeconfig.json
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\bin\Debug\net6.0\SerializationCSharp.dll
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\bin\Debug\net6.0\SerializationCSharp.pdb
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.dll
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\refint\SerializationCSharp.dll
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.pdb
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\SerializationCSharp.genruntimeconfig.cache
+C:\Users\shreesh.bajpai\source\repos\SerializationCSharp\SerializationCSharp\obj\Debug\net6.0\ref\SerializationCSharp.dll

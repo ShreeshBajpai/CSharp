@@ -1,0 +1,12 @@
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\bin\Debug\net6.0\CarManufacturingCost.deps.json
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\bin\Debug\net6.0\CarManufacturingCost.dll
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\bin\Debug\net6.0\CarManufacturingCost.pdb
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.dll
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\refint\CarManufacturingCost.dll
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\CarManufacturingCost.pdb
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CarManufacturingCost\obj\Debug\net6.0\ref\CarManufacturingCost.dll

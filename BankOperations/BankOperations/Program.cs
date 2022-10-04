@@ -123,7 +123,7 @@ for (int i = 0; i < loginCount; i++)
         }
         else
         {
-            Console.WriteLine("wrond pass");
+            Console.WriteLine("Wrond password");
         }
     }
     else
@@ -131,4 +131,3 @@ for (int i = 0; i < loginCount; i++)
         Console.WriteLine("Wrong ID");
     }
 }
-

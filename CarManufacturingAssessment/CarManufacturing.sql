@@ -49,19 +49,19 @@ create table stocks (part_Id int CONSTRAINT fk_stock_prod
 FOREIGN KEY (part_Id)  
 REFERENCES parts (partId), quantity int)
 
-insert into parts values (1, 'Door', 90, 3000)
+insert into parts values (1, 'Door', 200, 3000)
 insert into parts values (2, 'Sensors', 100, 5000)
-insert into parts values (3, 'Seats', 70, 32000)
-insert into parts values (4, 'Window', 50, 6000)
-insert into parts values (5, 'Glass', 30, 2000)
+insert into parts values (3, 'Seats', 170, 32000)
+insert into parts values (4, 'Window', 150, 6000)
+insert into parts values (5, 'Glass', 130, 2000)
 
 
 select * from parts
 
-insert into stocks values (1, 30)
-insert into stocks values (2, 40)
-insert into stocks values (3, 23)
-insert into stocks values (4, 17)
-insert into stocks values (5, 10)
+insert into stocks values (1, 80)
+insert into stocks values (2, 90)
+insert into stocks values (3, 110)
+insert into stocks values (4, 113)
+insert into stocks values (5, 70)
 
-select * from stocks
+select * from stocks s inner join parts p on s.part_Id=p.partId

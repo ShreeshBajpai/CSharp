@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarManufacturingCost
 {
-        public class manufacturingCost : Icar
+        public class manufacturingCost : InterfaceCost
         {
             public int totalPartsCost;
             public int totalManpowerCost;

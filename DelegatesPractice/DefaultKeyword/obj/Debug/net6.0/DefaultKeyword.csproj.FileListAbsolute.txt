@@ -1,0 +1,12 @@
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\bin\Debug\net6.0\DefaultKeyword.deps.json
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\bin\Debug\net6.0\DefaultKeyword.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\bin\Debug\net6.0\DefaultKeyword.pdb
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\refint\DefaultKeyword.dll
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\DefaultKeyword.pdb
+C:\Users\shreesh.bajpai\source\repos\DelegatesPractice\DefaultKeyword\obj\Debug\net6.0\ref\DefaultKeyword.dll

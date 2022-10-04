@@ -39,8 +39,8 @@
               "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\CommonClass\\CommonClass.csproj": {
                 "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\CommonClass\\CommonClass.csproj"
               },
-              "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj": {
-                "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj"
+              "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj": {
+                "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj": {
+    "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj",
-        "projectName": "Employees",
-        "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\Employees.csproj",
+        "projectUniqueName": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj",
+        "projectName": "EmployeeDetails",
+        "projectPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\EmployeeDetails.csproj",
         "packagesPath": "C:\\Users\\shreesh.bajpai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\Employees\\obj\\",
+        "outputPath": "C:\\Users\\shreesh.bajpai\\source\\repos\\CarManufacturingAssessment\\EmployeeDetails\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -252,12 +252,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

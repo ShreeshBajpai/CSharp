@@ -1,2 +1,0 @@
-Employee Id: 101, Employee Name: Akshat, Employee's Salary of the Month: 31700 
-Employee Id: 901, Employee Name: Sajal, Employee's Salary of the Month: 21300 

@@ -11,7 +11,8 @@ namespace CarManufacturingAssessment
         public int id { get; set; }
         public string name { get; set; }
         public int deptId;
-        public int totalWorkingHrs;
+        public int totalWorkingHrs { get; set; }
+
         public int totalSalary;
         public int minWorkingHrs;
     }

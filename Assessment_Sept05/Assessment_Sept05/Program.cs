@@ -149,10 +149,12 @@ switch (input)
                         }
                         else if (choice2 == 2)
                         {
-                            SqlDataAdapter da4 = new SqlDataAdapter("select * from sales orderby salary", con);
+
+                            SqlDataAdapter da4 = new SqlDataAdapter("select * from sales",  con);
                             DataSet ds4 = new DataSet();
                             da4.Fill(ds4);
                             int w = ds4.Tables[0].Rows.Count;
+                            Console.WriteLine(w);
                             if (w <= 0) Console.WriteLine("No Sales.");
                             else
                             {
@@ -165,7 +167,7 @@ switch (input)
                         }
                         else if (choice2==3)
                         {
-                            SqlDataAdapter da5 = new SqlDataAdapter("select s_id, s_mode, f_id, s_amount, s_date from sales orderby s_mode", con);
+                            SqlDataAdapter da5 = new SqlDataAdapter("select s_id, s_mode, f_id, s_amount, s_date from sales order by s_mode", con);
                             DataSet ds5 = new DataSet();
                             da5.Fill(ds5);
                             int w = ds5.Tables[0].Rows.Count;

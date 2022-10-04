@@ -1,0 +1,12 @@
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\bin\Debug\net6.0\CommonClass.deps.json
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\bin\Debug\net6.0\CommonClass.dll
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\bin\Debug\net6.0\CommonClass.pdb
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.csproj.AssemblyReference.cache
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.AssemblyInfoInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.AssemblyInfo.cs
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.csproj.CoreCompileInputs.cache
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.dll
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\refint\CommonClass.dll
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\CommonClass.pdb
+C:\Users\shreesh.bajpai\source\repos\Car_Manufacturing_Assessment\CommonClass\obj\Debug\net6.0\ref\CommonClass.dll

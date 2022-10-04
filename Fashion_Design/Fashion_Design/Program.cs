@@ -75,7 +75,7 @@ while (isRepeat == "Y" || isRepeat == "y")
             Console.WriteLine("Enter ID of Product to be deleted : ");
             prod.p_id = int.Parse(Console.ReadLine());
 
-            SqlCommand cmd3 = new SqlCommand("delete from products where id=" + prod.p_id + " ", con);
+            SqlCommand cmd3 = new SqlCommand("delete from products where p_id=" + prod.p_id + " ", con);
             con.Open();
             cmd3.ExecuteNonQuery();
             con.Close();

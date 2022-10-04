@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturingAssessment", "CarManufacturingAssessment\CarManufacturingAssessment.csproj", "{0DA999EE-1C72-46D6-912E-0C64F50A46C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManufacturingAssessment", "CarManufacturingAssessment\CarManufacturingAssessment.csproj", "{0DA999EE-1C72-46D6-912E-0C64F50A46C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturingCost", "CarManufacturingCost\CarManufacturingCost.csproj", "{21311FEE-639C-42D8-9C2B-0BB1E02E60FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManufacturingCost", "CarManufacturingCost\CarManufacturingCost.csproj", "{21311FEE-639C-42D8-9C2B-0BB1E02E60FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{C6DBCDF3-CFA1-44CD-967E-3495A37D95E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonClass", "CommonClass\CommonClass.csproj", "{48BD2B80-5E22-4425-9C88-3FC4089B2E7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClass", "CommonClass\CommonClass.csproj", "{48BD2B80-5E22-4425-9C88-3FC4089B2E7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDetails", "EmployeeDetails\EmployeeDetails.csproj", "{B2003F7C-07E1-4589-AA5F-DCE906563394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{21311FEE-639C-42D8-9C2B-0BB1E02E60FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21311FEE-639C-42D8-9C2B-0BB1E02E60FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21311FEE-639C-42D8-9C2B-0BB1E02E60FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6DBCDF3-CFA1-44CD-967E-3495A37D95E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6DBCDF3-CFA1-44CD-967E-3495A37D95E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6DBCDF3-CFA1-44CD-967E-3495A37D95E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6DBCDF3-CFA1-44CD-967E-3495A37D95E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48BD2B80-5E22-4425-9C88-3FC4089B2E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48BD2B80-5E22-4425-9C88-3FC4089B2E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BD2B80-5E22-4425-9C88-3FC4089B2E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48BD2B80-5E22-4425-9C88-3FC4089B2E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2003F7C-07E1-4589-AA5F-DCE906563394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2003F7C-07E1-4589-AA5F-DCE906563394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2003F7C-07E1-4589-AA5F-DCE906563394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2003F7C-07E1-4589-AA5F-DCE906563394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

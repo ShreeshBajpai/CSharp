@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "DelegatesPractice/1.0.0": {
+        "dependencies": {
+          "DefaultKeyword": "1.0.0"
+        },
         "runtime": {
           "DelegatesPractice.dll": {}
+        }
+      },
+      "DefaultKeyword/1.0.0": {
+        "runtime": {
+          "DefaultKeyword.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DelegatesPractice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DefaultKeyword/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

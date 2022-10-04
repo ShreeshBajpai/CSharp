@@ -10,3 +10,4 @@ select * from category;
 
 select * from products;
 delete from category where c_id=2;
+
